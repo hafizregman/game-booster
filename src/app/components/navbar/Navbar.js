@@ -75,7 +75,7 @@ export const Navbar = () => {
                 </div>
                 <div className="flex border justify-self-center px-3 py-3 w-fit rounded-full font-normal text-sm border-border-light bg-[#FFFFFF05] text-[#FFFFFFE5]">
                     {navlinks.map((navLink, index) => (
-                        <Link href={navLink.linkTo}>
+                        <Link href={navLink.linkTo} key={index}>
                             <p key={index} className="px-3">
                                 {navLink.linkName}
                             </p>
