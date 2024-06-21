@@ -91,6 +91,7 @@ export const Services = () => {
                                     <Image
                                         src={staff.personImage}
                                         className="w-12 h-12 object-cover rounded-full"
+                                        alt="no Img"
                                     />
                                     <div className="flex flex-col">
                                         <span className="font-semibold text-xl leading-6 tracking-[-0.43px]">{staff.personName}</span>

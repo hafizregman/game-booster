@@ -50,6 +50,7 @@ export const JoinUs = () => {
                 <Image 
                     src={LaunchImage}
                     className="absolute right-0 launch-image"
+                    alt="no img"
                 />
             </div>
         </div>
