@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 export const ServiceHeader = ({icon, alt, heading, description}) => {
     return (
         <div className="">
             <div className="flex items-center gap-2">
-                <img
+                <Image
                     src={icon}
                     className="w-5 h-5"
                     alt={alt}

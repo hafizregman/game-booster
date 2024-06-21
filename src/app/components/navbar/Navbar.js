@@ -44,7 +44,7 @@ export const Navbar = () => {
                     />
                     <div className="relative inline-block text-left w-fit">
                         <button type="button" onClick={handleToggleMenu} className="flex justify-between items-center border px-3 py-3 gap-3 rounded-full font-normal text-sm border-border-light bg-[#FFFFFF05] text-[#FFFFFFE5]" >
-                            <img
+                            <Image
                                 src='/icons/game-control.svg'
                                 className="w-5 h-5"
                                 alt="Game Controller Icon"

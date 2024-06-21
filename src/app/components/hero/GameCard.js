@@ -1,17 +1,18 @@
+import Image from "next/image"
 
 
 export const GameCard = ({ gameName, gameImage }) => {
     return (
         <div className="text-center">
             <div className="mb-7 w-full relative">
-                <img
+                <Image
                     src={gameImage}
                     className="rounded-xl w-full"
                     alt="Game image"
                 />
                 <div className="absolute left-0 top-0 flex justify-center items-center w-full h-full comming-soon-blur">
                     <a href="#" className="px-3 py-1 border rounded-full flex justify-between gap-2 comming-soon-border">
-                        <img
+                        <Image
                             src='/icons/lock.svg'
                             className="w-3"
                             alt="lock icon"
