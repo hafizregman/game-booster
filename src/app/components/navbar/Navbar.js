@@ -50,7 +50,7 @@ export const Navbar = () => {
                                 alt="Game Controller Icon"
                             />
                             Select Game
-                            <img src="/icons/angle-down.svg"/>
+                            <Image src="/icons/angle-down.svg"/>
                         </button>
                         {openMenu && (
                             <div className="absolute w-64 mt-3 bg-[#FFFFFF21] rounded-xl px-4 py-4 -right-1/4">
