@@ -7,6 +7,9 @@ export const LounchBtnPrimary = ({btnText, icon, alt, additionClass}) => {
                 src={icon}
                 className="w-4"
                 alt={alt}
+                width={50}  // Set appropriate width
+                height={50} // Set appropriate height
+
             />
             <span className="white-gradient-light font-medium text-xs leading-7">
                 {btnText}

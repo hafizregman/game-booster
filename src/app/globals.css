@@ -75,5 +75,22 @@ body {
   box-shadow: 0px 1px 2px 0px #0000000D;
 }
 .launch-image{
-  width: 450px;
+  width: 530px;
+}
+.form-control{
+  background: black;
+  border: 1px solid #FFFFFF1A;
+  width: 327px;
+  height: Hug (56px)px;
+  padding: 16px 16px 16px 21px;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+}
+.form-control::placeholder{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
 }

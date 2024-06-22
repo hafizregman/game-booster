@@ -8,6 +8,9 @@ export const ServiceHeader = ({icon, alt, heading, description}) => {
                     src={icon}
                     className="w-5 h-5"
                     alt={alt}
+                    width={50}  // Set appropriate width
+                    height={50} // Set appropriate height
+    
                 />
                 <h2 className="font-semibold text-2xl leading-7 tracking-[-1.6px]">{heading}</h2>
             </div>

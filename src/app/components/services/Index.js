@@ -60,8 +60,11 @@ export const Services = () => {
                             <Image
                                 key={index}
                                 src={boostgame.logo}
-                                className="w-24 mb-2 mt-3"
+                                className="w-24 h-9 mb-2 mt-3"
                                 alt={boostgame.alt}
+                                width={96} 
+                                height={96}
+                
                             />
                             <div key={index} className="border-border-light border green-radial-gradient-15 font-semibold text-xs text-center rounded px-3 py-1">
                                 {boostgame.heading}
@@ -71,6 +74,8 @@ export const Services = () => {
                                 src={boostgame.monoGram}
                                 className="w-40 h-40 -mt-6"
                                 alt={'League Lagends Logo'}
+                                width={160} 
+                                height={160}
                             />
                         </ServiceInnerCard>
                     ))}
@@ -92,16 +97,22 @@ export const Services = () => {
                                         src={staff.personImage}
                                         className="w-12 h-12 object-cover rounded-full"
                                         alt="no Img"
+                                        width={48} 
+                                        height={48}
+                        
                                     />
                                     <div className="flex flex-col">
                                         <span className="font-semibold text-xl leading-6 tracking-[-0.43px]">{staff.personName}</span>
-                                        <span className="mt-1 flex gap-1">
+                                        <span className="mt-1 flex">
                                             {Array(5).fill(0).map((_, index) => (
                                                 <Image
                                                     key={index}
                                                     src={star}
                                                     className="w-4 h-4"
                                                     alt="star icon"
+                                                    width={16}
+                                                    height={16}
+                                    
                                                 />
                                             ))}
                                         </span>
@@ -112,6 +123,8 @@ export const Services = () => {
                                         src={greenCircle}
                                         className="w-2 h-2"
                                         alt="circle icon"
+                                        width={8}
+                                        height={8}
                                     />
                                     {staff.designation}
                                 </div>

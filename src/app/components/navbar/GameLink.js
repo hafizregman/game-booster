@@ -8,6 +8,8 @@ export const GameLink = ({gameName, gameIcon, gameLink, bgColor, alt, key}) => {
                     src={gameIcon}
                     className="w-5 h-5"
                     alt={alt}
+                    width={5}
+                    height={5}
                 />
             </div>
             {gameName}

@@ -4,10 +4,10 @@ export const MainHeading = ({btnIcon, btnText, btnAlt, beforeGradintText, withIn
     return (
         <div className={`${alignText}`}>
             <LounchBtnPrimary
-                    btnText={btnText}
-                    icon={btnIcon}
-                    additionClass={additionClass}
-                    alt={btnAlt}
+                btnText={btnText}
+                icon={btnIcon}
+                additionClass={additionClass}
+                alt={btnAlt}
             />
             <h1 className="text-4xl leading-[73px] tracking-[-1.6px] font-bold">
                 {beforeGradintText} <span className="green-gradient-light">{withInGradientText}</span>

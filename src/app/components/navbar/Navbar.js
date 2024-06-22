@@ -41,6 +41,7 @@ export const Navbar = () => {
                         src={Logo}
                         alt="Logo"
                         className="w-32"
+        
                     />
                     <div className="relative inline-block text-left w-fit">
                         <button type="button" onClick={handleToggleMenu} className="flex justify-between items-center border px-3 py-3 gap-3 rounded-full font-normal text-sm border-border-light bg-[#FFFFFF05] text-[#FFFFFFE5]" >
@@ -48,11 +49,15 @@ export const Navbar = () => {
                                 src='/icons/game-control.svg'
                                 className="w-5 h-5"
                                 alt="Game Controller Icon"
+                                width={5}
+                                height={5}
                             />
                             Select Game
                             <Image
                                 src="/icons/angle-down.svg"
                                 alt="arrow icon"
+                                width={7}
+                                height={5}
                             />
                         </button>
                         {openMenu && (

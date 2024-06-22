@@ -5,7 +5,7 @@ export const GameCard = ({ gameName, gameImage }) => {
     return (
         <div className="text-center">
             <div className="mb-7 w-full relative">
-                <Image
+                <img
                     src={gameImage}
                     className="rounded-xl w-full"
                     alt="Game image"
@@ -16,6 +16,8 @@ export const GameCard = ({ gameName, gameImage }) => {
                             src='/icons/lock.svg'
                             className="w-3"
                             alt="lock icon"
+                            width={3}
+                            height={3}
                         />
                         <span className="text-sm">Coming Soon</span>
                     </a>
